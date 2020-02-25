@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tinh lai ngan hang</title>
+</head>
+<body>
+    <script>
+        let month = parseInt(prompt("Nhap so thang muon gui : "));
+        let interestRate = parseFloat(prompt("Nhap lai suat hang thang(%) : "));
+        let money = parseInt(prompt("Nhap so tien ban muon gui(tr) : "));
+        let deposits = month * interestRate * money / 100;
+        alert("So lai nhan duoc sau "+ month + " thang la : " + deposits + " trieu VND");
+    </script>
+</body>
+</html>

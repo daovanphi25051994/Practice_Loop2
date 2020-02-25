@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tinh giai thua</title>
+</head>
+<body>
+    <script>
+        let enterNumber = parseInt(prompt("Nhap 1 so nguyen bat ky: "));
+        if(enterNumber === 0){
+            alert("Giai thua cua " + enterNumber + " la 1")
+        }else if (enterNumber > 0 ){
+            let result = Math.sqrt(enterNumber);
+            alert("Giai thua cua " + enterNumber + " la " + result);
+        }else {
+            alert("So nhap phai lon hon hoac bang khong")
+        }
+    </script>
+</body>
+</html>
